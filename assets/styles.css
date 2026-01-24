@@ -1,0 +1,54 @@
+html,body{
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    background: linear-gradient(-25deg, #0B0F14, #020950, #0a4179, #020950, #0B0F14);
+}
+.row{
+    margin: 5em;
+}
+
+.navbar>.container{
+    justify-content: center;
+}
+
+nav{
+    background-color: #E6EDF3;
+}
+
+.btn.disabled{
+    background-color: #00E5FF;
+    border-color: #00E5FF;
+    color: #0B0F14;
+}
+
+.btn-primary{
+    background-color: #00E5FF;
+    border-color: #00E5FF;
+    color: #0B0F14;
+}
+
+
+
+.card{
+    background: linear-gradient(-25deg,  #9002fc,#0B0F14);
+    color: #E6EDF3;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px #945cbe;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 25px #945cbe;
+}
+
+.rubik-storm-regular {
+  font-family: "Rubik Storm", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+

@@ -7,6 +7,12 @@ body{
     min-width: 100vw;
     background: linear-gradient(-25deg, #0B0F14, #020950, #0a4179, #020950, #0B0F14);
 }
+
+.card>img{
+    height: 60%;
+    width: 60%;
+    border-radius: 0;
+}
 .row{
     margin: 5em;
 }
@@ -39,6 +45,7 @@ nav{
     border-radius: 12px;
     box-shadow: 4px 4px 10px #945cbe;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    align-items: center;
 }
 
 .card:hover{
